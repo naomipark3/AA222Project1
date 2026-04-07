@@ -78,7 +78,7 @@ def optimize(f, g, x0, n, count, prob):
             if count() >= n:
                 break
             x_new = x + alpha * d
-            f_new = f(x_new)  # 1 eval
+            f_new = f(x_new)  #1 eval
  
             #Track the best point seen so far
             if f_new < f_best:
